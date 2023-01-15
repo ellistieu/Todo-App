@@ -6,6 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvTodoItems"
         android:layout_width="match_parent"
@@ -13,7 +17,7 @@
         app:layout_constraintBottom_toTopOf="@+id/btnAddTodo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
     <EditText
         android:id="@+id/etTodoTitle"
