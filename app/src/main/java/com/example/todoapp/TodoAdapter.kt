@@ -14,6 +14,7 @@ class TodoAdapter(
 
     class TodoViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
 
+    // Create a new view
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TodoViewHolder {
         return TodoViewHolder(
             LayoutInflater.from(parent.context).inflate(
@@ -24,10 +25,10 @@ class TodoAdapter(
         )
     }
 
-    override fun getItemCount(): Int {
-        return todos.size
-    }
+    // Return the number of items in the data set
+    override fun getItemCount() = todos.size
 
+    // Bind the data at position into the viewholder
     override fun onBindViewHolder(holder: TodoViewHolder, position: Int) {
         val curTodo = todos[position]
         holder.itemView.apply {
