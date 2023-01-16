@@ -18,8 +18,11 @@ The following functionality is completed:
 * [ ] Add todo description 
 * [ ] Add todo due dates
 * [ ] Add priority
+* [ ] Add settings menu
+* [ ] Add sorting
 
 The following extensions are completed:
+
 * [ ] Custom colors
 * [ ] Checkbox icons with priority
 * [ ] Images
