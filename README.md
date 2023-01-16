@@ -15,15 +15,15 @@ The following functionality is completed:
 * [x] Implement deleting completed todos
 * [x] Customize toolbar
 * [x] Light/Dark mode buttons
-* [] Add todo description 
-* [] Add todo due dates
-* [] Add priority
+* [ ] Add todo description 
+* [ ] Add todo due dates
+* [ ] Add priority
 
 The following extensions are completed:
-* [] Custom colors
-* [] Checkbox icons with priority
-* [] Images
-* [] Icons
+* [ ] Custom colors
+* [ ] Checkbox icons with priority
+* [ ] Images
+* []  Icons
 
 ## Video Walkthrough 
 
