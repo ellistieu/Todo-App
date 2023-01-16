@@ -23,7 +23,7 @@ The following extensions are completed:
 * [ ] Custom colors
 * [ ] Checkbox icons with priority
 * [ ] Images
-* []  Icons
+* [ ]  Icons
 
 ## Video Walkthrough 
 
